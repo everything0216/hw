@@ -1,0 +1,5 @@
+digraph "summer.test:singyi:jar:1.0-SNAPSHOT" { 
+	"summer.test:singyi:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"summer.test:singyi:jar:1.0-SNAPSHOT" -> "org.jsoup:jsoup:jar:1.13.1:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+ } 
